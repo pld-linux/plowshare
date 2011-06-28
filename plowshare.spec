@@ -11,7 +11,8 @@ Group:		Applications
 Source0:	http://plowshare.googlecode.com/files/%{name}-SVN-%{version}-snapshot.tar.gz
 # Source0-md5:	0216a9addc638e8acc9df601daaa4f57
 URL:		http://code.google.com/p/plowshare/
-Requires:	libcaca-img
+Requires:	perl-HTML-Parser
+Suggests:	libcaca-img
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
