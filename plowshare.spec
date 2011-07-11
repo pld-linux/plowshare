@@ -1,7 +1,7 @@
 #
 # TODO: make shell scripts executable
 #
-%define		svn	r1542
+%define		svn	r1575
 Summary:	Command line (CLI) designed for popular file-sharing websites
 Name:		plowshare
 Version:	%{svn}
@@ -9,7 +9,7 @@ Release:	0.1
 License:	GPL v3+
 Group:		Applications
 Source0:	http://plowshare.googlecode.com/files/%{name}-SVN-%{version}-snapshot.tar.gz
-# Source0-md5:	0216a9addc638e8acc9df601daaa4f57
+# Source0-md5:	2de6b5e9bb171cdf1c2e409410e5ba4a
 URL:		http://code.google.com/p/plowshare/
 Requires:	perl-HTML-Parser
 Suggests:	libcaca-img
